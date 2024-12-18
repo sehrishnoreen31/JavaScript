@@ -1,0 +1,48 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "let a = 0;\r\nlet b = 89;\r\nlet c = 'Hello';\r\nlet d = \"World\";\r\nlet e = 875686576765354342763712837192831094982374348563463542362434123734623874985387657465763745684653475694754570;\r\nlet f = 45.674;"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "console.log(typeof(a));\r\nconsole.log(typeof(b));\r\nconsole.log(typeof(c));\r\nconsole.log(typeof(d));\r\nconsole.log(typeof(e));\r\nconsole.log(typeof(f));"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "number",
+                                "number",
+                                "string",
+                                "string",
+                                "number",
+                                "number",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
