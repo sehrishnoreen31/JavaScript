@@ -3,7 +3,7 @@
         {
             "language": "typescript",
             "source": [
-                "let a = 0;\r\nlet b = 89;\r\nlet c = 'Hello';\r\nlet d = \"World\";\r\nlet e = 875686576765354342763712837192831094982374348563463542362434123734623874985387657465763745684653475694754570;\r\nlet f = 45.674;"
+                "let a = 0;\r\nlet b = 89;\r\nlet c = 'Hello';\r\nlet d = \"World\";\r\nlet e = 875686576765354342763712837192831094982374348563463542362434123734623874985387657465763745684653475694754570;\r\nlet f = 45.674;\r\nlet g = null;\r\nlet h = true;\r\nlet i = false;\r\nlet j;\r\nfunction k(){};"
             ],
             "outputs": [
                 {
@@ -22,7 +22,7 @@
         {
             "language": "typescript",
             "source": [
-                "console.log(typeof(a));\r\nconsole.log(typeof(b));\r\nconsole.log(typeof(c));\r\nconsole.log(typeof(d));\r\nconsole.log(typeof(e));\r\nconsole.log(typeof(f));"
+                "console.log(typeof(a));\r\nconsole.log(typeof(b));\r\nconsole.log(typeof(c));\r\nconsole.log(typeof(d));\r\nconsole.log(typeof(e));\r\nconsole.log(typeof(f));\r\nconsole.log(typeof(g));\r\nconsole.log(typeof(h));\r\nconsole.log(typeof(i));\r\nconsole.log(typeof(j));"
             ],
             "outputs": [
                 {
@@ -36,6 +36,39 @@
                                 "string",
                                 "number",
                                 "number",
+                                "undefined",
+                                "undefined",
+                                "undefined",
+                                "undefined",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "console.log(typeof 45);\r\nconsole.log(typeof 45.78);\r\nconsole.log(typeof 'Hello');\r\nconsole.log(typeof \"World\");\r\nconsole.log(typeof true);\r\nconsole.log(typeof false);\r\nconsole.log(typeof null);\r\nconsole.log(typeof undefined);\r\nconsole.log(typeof function k(){});\r\nconsole.log(typeof {a: 'A'});"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "number",
+                                "number",
+                                "string",
+                                "string",
+                                "boolean",
+                                "boolean",
+                                "object",
+                                "undefined",
+                                "function",
+                                "object",
                                 "",
                                 ""
                             ]
