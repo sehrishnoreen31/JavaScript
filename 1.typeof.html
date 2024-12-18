@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Type of</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <p id="output1"></p>
+        <p id="output2"></p>
+        <p id="output3"></p>
+
+        <script>
+            let number = 45;
+            document.getElementById('output1').innerHTML = typeof(number);
+
+            let sym = Symbol();
+            document.getElementById('output2').innerHTML = typeof(sym);
+
+            let str = 'Hello';
+            document.getElementById('output3').innerHTML = typeof(str);
+        </script>
+    
+    </body>
+</html>
