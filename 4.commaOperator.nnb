@@ -1,0 +1,177 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "The comma operator (,) in JavaScript evaluates the multiple expression from left to right. You can use the resultant value of the left expression as an input of the right expression. After evaluating all expressions, it returns the resultant value of the rightmost expression.\r\n\r\nHowever, the comma operator is also used in the 'for' loop, array, object, etc."
+            ],
+            "outputs": []
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "// variables\r\nlet myVar = (3,4,5,6,7,9);\r\nconsole.log(myVar);"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "9",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "// exprssions\r\nlet myVar2 = (2+3, 4+7, 9/8);\r\nconsole.log(myVar2);"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "1.125",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "// declare and print variables\r\nlet a=9, b=45, c=90;\r\nconsole.log(a,b,c);"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "9 45 90",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "// objects\r\nlet myObj = {\r\n    a: 'Hello',\r\n    b: 'World'\r\n};\r\nconsole.log(myObj);"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "{ a: 'Hello', b: 'World' }",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "// loops\r\nfor(let i = 0, j = 1; i<=3; i++, j++ ){\r\n    console.log(i);\r\n    console.log(j);\r\n}"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "0",
+                                "1",
+                                "1",
+                                "2",
+                                "2",
+                                "3",
+                                "3",
+                                "4",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "// functions parameters\r\nfunction myFunc(a,b,c){\r\n    a = 5;\r\n    b = 45;\r\n    c = 67;\r\n    console.log(a, b, c);\r\n}\r\n\r\nmyFunc();"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "5 45 67",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "// import libs"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "// destructure an array\r\nlet [a,b,c] =  [90,78,67];\r\nconsole.log(a,b,c);"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "90 78 67",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
